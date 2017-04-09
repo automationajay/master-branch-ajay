@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test with multiple features"  verbose="1"
+	configfailurepolicy="continue" >
+
+	<test name="Tests in FF">
+		<!-- If you want to be more specific, replace this with a list of test 
+			classes you'd like to run -->
+		<classes>
+			<class name="com.launch.DriverInitiator" />
+			<class name="cucumberRunner.TestRunner" />
+		</classes>
+	</test>
+
+</suite>

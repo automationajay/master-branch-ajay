@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test with multiple features" duration-ms="14372" started-at="2017-04-09T13:39:06Z" finished-at="2017-04-09T13:39:21Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@bf9759]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Tests in FF" duration-ms="14372" started-at="2017-04-09T13:39:06Z" finished-at="2017-04-09T13:39:21Z">
+      <class name="cucumberRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberRunner.TestRunner@bf9759]" name="setUpClass" is-config="true" duration-ms="965" started-at="2017-04-09T19:09:06Z" finished-at="2017-04-09T19:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@bf9759]" name="feature" duration-ms="7093" started-at="2017-04-09T19:09:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-04-09T19:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Facebook smoke scenario]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@bf9759]" name="feature" duration-ms="5974" started-at="2017-04-09T19:09:15Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-04-09T19:09:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test google search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberRunner.TestRunner@bf9759]" name="tearDownClass" is-config="true" duration-ms="32" started-at="2017-04-09T19:09:21Z" finished-at="2017-04-09T19:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberRunner.TestRunner -->
+      <class name="com.launch.DriverInitiator">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.launch.DriverInitiator@ecd4b]" name="beforeSuite" is-config="true" duration-ms="19620" started-at="2017-04-09T19:08:47Z" finished-at="2017-04-09T19:09:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.launch.DriverInitiator@ecd4b]" name="afterSuite" is-config="true" duration-ms="16" started-at="2017-04-09T19:09:21Z" finished-at="2017-04-09T19:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.launch.DriverInitiator -->
+    </test> <!-- Tests in FF -->
+  </suite> <!-- Test with multiple features -->
+</testng-results>
